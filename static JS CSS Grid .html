@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <title>JS CSS Grid static</title>
+
 <body>
   <script>
     let btn = document.createElement('button')
-    btn.textContent = 'show'
+    btn.textContent = 'Click To Experience'
     document.body.appendChild(btn)
     let grid = document.querySelector('body')
     grid.setAttribute(
@@ -13,30 +14,30 @@
     let header = document.createElement('header')
     header.setAttribute(
       'style',
-      'grid-area: header; padding: 1.2em; background: gold;'
+      'grid-area: header; padding: 1.2em; background: green; color: white;'
     )
     let article = document.createElement('article')
     article.setAttribute(
       'style',
-      'grid-area: article; padding: 1.2em; background: gold;'
+      'grid-area: article; padding: 1.2em; background: green; color: white;'
     )
     let nav = document.createElement('nav')
 
     nav.setAttribute(
       'style',
-      'grid-area: nav; padding: 1.2em; background: gold;'
+      'grid-area: nav; padding: 1.2em; background: green; color: white;'
     )
     let ads = document.createElement('div')
 
     ads.setAttribute(
       'style',
-      'grid-area: ads; padding: 1.2em; background: gold;'
+      'grid-area: ads; padding: 1.2em; background: green; color: white;'
     )
     let footer = document.createElement('footer')
 
     footer.setAttribute(
       'style',
-      'grid-area: footer; padding: 1.2em; background: gold;'
+      'grid-area: footer; padding: 1.2em; background: green; color: white;'
     )
 
     header.id = 'pageHeader'
